@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px
+}
+body{
+    background-color: black;
+}
+/* container */
+.container{
+    border: 2px solid white;
+    background-color: rgb(124, 72, 72);
+    color: aliceblue;
+    margin: 22px 44px;
+    padding: 22px 6px;
+    border-radius: 22px;
+    width: 50%;
+    margin:22px auto;
+}
+
+/* ingredient */
+.ingredient{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+
+
+/* ing */
+.ing{
+    /* border: 2px solid red; */
+    margin: 12px 34px;
+    padding: 5px 8px;
+    width: 212px;
+}
+
+.recipe{
+   
+    margin: 8px 22px;
+    padding: 5px 9px;
+}
+
+/* utility classes */
+
+.h-primary{
+    width: 250px;
+    margin: auto;
+    padding: 10px 12px;
+}
